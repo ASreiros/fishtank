@@ -41,6 +41,7 @@ body{
     border-radius: 0 0 60% 60%;
 }
 
+
 .blue{
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 6%, rgba(96,149,219,1) 6%, rgba(14,21,31,0.9976365546218487) 100%);
@@ -56,7 +57,7 @@ body{
     position: absolute;
     top: 10vh;
     left: 10vw;
-    transition-duration: 0.5s;
+    transition-duration: 0.8s;
 }
 
 .fishposition2{
@@ -98,8 +99,8 @@ body{
 .fishposition7{
     position: absolute;
     top: 10vh;
-    left: 10vw;
-    transition-duration: 2s;
+    left: 12vw;
+    transition-duration: 4s;
     transform: rotateY(180deg);
 }
 
