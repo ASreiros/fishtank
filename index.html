@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,25 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>Fishtank</title>
 </head>
-<body>
-<header class="title" >
-    <h1>Project <span class="uppercase">fishtank</span></h1>
-</header>
-<div>
-    <div class="fishtank aqua blue">
-        <div><img id="fishimage" class="yellow" src="./image/yellowfish.gif" alt="fish"></div>
-    </div>
-    <div class="fishtank pult"></div>
-</div>    
 
-<script src="./js/main.js" defer></script>
+<body>
+    <header class="title">
+        <h1>Project <span class="uppercase">fishtank</span></h1>
+    </header>
+    <div>
+        <div id="w1" class="fishtank aqua blue">
+            <div><img id="fishimage" class="smallfish fishposition1" src="./image/yellowfish.gif" alt="fish"></div>
+        </div>
+        <div class="fishtank pult">
+            <button class="button first" id="201" onclick="watercolor()">water color</button>
+            <button class="button second" id="202" onclick="fishcolor()">fish color</button>
+            <button class="button third" id="203" onclick="fishposition()">fish movement</button>
+            <button class="button forth" id="204" onclick="fishpositionloop()">fish movement loop</button>
+            <p id="explain" class=explainwindow></p>
+        </div>
+    </div>
+
+    <script src="./js/main.js" defer></script>
 </body>
+
 </html>
