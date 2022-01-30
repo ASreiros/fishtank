@@ -46,6 +46,11 @@ switch (fishpositionvalue) {
     break;
     case 6:
         fishpositioncss.classList.remove('fishposition6');  
+        fishpositioncss.classList.add('fishposition7');
+        fishpositionvalue++;   
+    break;
+    case 7:
+        fishpositioncss.classList.remove('fishposition7');  
         fishpositioncss.classList.add('fishposition1');
         fishpositionvalue = 1;   
     break;

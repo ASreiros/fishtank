@@ -56,7 +56,7 @@ body{
     position: absolute;
     top: 10vh;
     left: 10vw;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .fishposition2{
@@ -91,6 +91,14 @@ body{
     position: absolute;
     top: 10vh;
     left: 40vw;
+    transition-duration: 2s;
+    transform: rotateY(180deg);
+}
+
+.fishposition7{
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
     transition-duration: 2s;
     transform: rotateY(180deg);
 }
