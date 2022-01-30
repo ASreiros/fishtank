@@ -8,7 +8,7 @@ Page done for educational purposes. Some elements respond to hover, buttons star
 
 This project made for fun. 
 
-Site published at: https://asreiros.github.io/Fridaychallenge1/
+Site published at: asreiros.github.io/fishtank/
 
 
 ## Authors
