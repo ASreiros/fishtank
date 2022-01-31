@@ -104,6 +104,57 @@ body{
     transform: rotateY(180deg);
 }
 
+.fishposition11{
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    transition-duration: 0.8s;
+}
+
+.fishposition12{
+    position: absolute;
+    top: 15vh;
+    left: 15vw;
+    transition-duration: 2s;
+}
+
+.fishposition13{
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    transition-duration: 2s;
+}
+
+.fishposition14{
+    position: absolute;
+    top: 15vh;
+    left: 30vw;
+    transition-duration: 2s;
+}
+
+.fishposition15{
+    position: absolute;
+    top: 10vh;
+    left: 40vw;
+    transition-duration: 2s;
+}
+
+.fishposition16{
+    position: absolute;
+    top: 10vh;
+    left: 40vw;
+    transition-duration: 2s;
+    transform: rotateY(180deg);
+}
+
+.fishposition17{
+    position: absolute;
+    top: 10vh;
+    left: 12vw;
+    transition-duration: 4s;
+    transform: rotateY(180deg);
+}
+
 
 
 .smallfish{
@@ -144,8 +195,7 @@ top: 30%;
 }
 
 .forth{
-    left: 75%; 
-    opacity: 0;   
+    left: 75%;    
 }
 
 .button:hover{
