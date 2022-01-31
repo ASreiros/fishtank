@@ -27,10 +27,10 @@ body{
 }
 
 .fishtank{
-    width: 60%;
+    width: 90%;
     height: 25vh; 
     border: black solid 1px;
-    margin-left: 20%;
+    margin-left: 5%;
     margin-top: 5%;
 }
 
@@ -53,6 +53,11 @@ body{
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 6%, rgba(94,218,141,1) 6%, rgba(16,38,20,0.9976365546218487) 100%);
 }
 
+.breadimage{
+display: none;    
+}
+
+
 .fishposition1{
     position: absolute;
     top: 10vh;
@@ -63,35 +68,35 @@ body{
 .fishposition2{
     position: absolute;
     top: 15vh;
-    left: 15vw;
+    left: 25vw;
     transition-duration: 2s;
 }
 
 .fishposition3{
     position: absolute;
-    top: 20vh;
-    left: 20vw;
+    top: 25vh;
+    left: 40vw;
     transition-duration: 2s;
 }
 
 .fishposition4{
     position: absolute;
-    top: 15vh;
-    left: 30vw;
+    top: 19vh;
+    left: 60vw;
     transition-duration: 2s;
 }
 
 .fishposition5{
     position: absolute;
     top: 10vh;
-    left: 40vw;
+    left: 75vw;
     transition-duration: 2s;
 }
 
 .fishposition6{
     position: absolute;
-    top: 10vh;
-    left: 40vw;
+    top: 19vh;
+    left: 75vw;
     transition-duration: 2s;
     transform: rotateY(180deg);
 }
@@ -104,58 +109,10 @@ body{
     transform: rotateY(180deg);
 }
 
-.fishposition11{
+.fishpositionrandf{
     position: absolute;
-    top: 10vh;
-    left: 10vw;
-    transition-duration: 0.8s;
-}
-
-.fishposition12{
-    position: absolute;
-    top: 15vh;
-    left: 15vw;
-    transition-duration: 2s;
-}
-
-.fishposition13{
-    position: absolute;
-    top: 20vh;
-    left: 20vw;
-    transition-duration: 2s;
-}
-
-.fishposition14{
-    position: absolute;
-    top: 15vh;
-    left: 30vw;
-    transition-duration: 2s;
-}
-
-.fishposition15{
-    position: absolute;
-    top: 10vh;
-    left: 40vw;
-    transition-duration: 2s;
-}
-
-.fishposition16{
-    position: absolute;
-    top: 10vh;
-    left: 40vw;
-    transition-duration: 2s;
-    transform: rotateY(180deg);
-}
-
-.fishposition17{
-    position: absolute;
-    top: 10vh;
-    left: 12vw;
     transition-duration: 4s;
-    transform: rotateY(180deg);
 }
-
-
 
 .smallfish{
     width: 100px;  
@@ -183,19 +140,23 @@ top: 30%;
 }
 
 .first{
-    left: 15%;    
+    left: 17%;    
 }
 
 .second{
-    left: 35%;    
+    left: 32%;    
 }
 
 .third{
-    left: 55%;    
+    left: 47%;    
 }
 
 .forth{
-    left: 75%;    
+    left: 62%;    
+}
+
+.fifth{
+    left: 77%;    
 }
 
 .button:hover{

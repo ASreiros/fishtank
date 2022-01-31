@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <style id=fishrand></style>
+    <style id=breadrand></style>
     <title>Fishtank</title>
 </head>
 
@@ -16,12 +18,14 @@
     <div>
         <div id="w1" class="fishtank aqua blue">
             <div><img id="fishimage" class="smallfish fishposition1" src="./image/yellowfish.gif" alt="fish"></div>
+            <div><img id="bread" class="breadimage" src="./image/bread.png" alt="bread"></div>
         </div>
         <div class="fishtank pult">
             <button class="button first" id="201" onclick="watercolor()">water color</button>
             <button class="button second" id="202" onclick="fishcolor()">fish color</button>
             <button class="button third" id="203" onclick="fishposition()">fish movement</button>
             <button class="button forth" id="204" onclick="fishpositionloop()">fish movement loop</button>
+            <button class="button fifth" id="205" onclick="breadcrumbs()">Breadcrumbs</button>
             <p id="explain" class=explainwindow></p>
         </div>
     </div>
